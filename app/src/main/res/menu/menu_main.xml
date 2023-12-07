@@ -1,0 +1,18 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.mvvm.demo.MainActivity">
+    <item
+        android:id="@+id/settingsFragment"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        android:menuCategory="secondary"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/item_about_app"
+        android:title="About App"
+        android:icon="@drawable/ic_info"
+        app:showAsAction="never" />
+
+
+</menu>
